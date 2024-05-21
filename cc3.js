@@ -5,3 +5,8 @@ class Car {
     }
 }
 
+accelerate() {
+    this.speed = this.speed + 10;
+    console.log('New speed of ' + this.make + ': ' + this.speed + ' km/h');
+}
+
