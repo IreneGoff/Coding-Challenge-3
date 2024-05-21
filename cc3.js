@@ -10,3 +10,8 @@ accelerate() {
     console.log('New speed of ' + this.make + ': ' + this.speed + ' km/h');
 }
 
+brake() {
+    this.speed = this.speed - 5;
+    console.log('New speed of ' + this.make + ': ' + this.speed + ' km/h');
+}
+}
